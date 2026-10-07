@@ -71,6 +71,20 @@ main {
     margin: auto 2rem;
 }
 
+/* Pages with prose: a darker panel and left-aligned, readable paragraphs. */
+main:has(p) {
+    background: rgba(20, 14, 8, 0.86);
+    max-width: 42rem;
+    padding: 2.5rem 3rem;
+}
+
+main p {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    margin: 0 0 1.1em;
+}
+
 h1 {
     font-size: 3rem;
     font-weight: normal;
@@ -114,4 +128,20 @@ footer {
     padding: 0.4rem 1rem;
     border-radius: 4px;
     margin-bottom: 1rem;
+}
+
+/* Phones: use more of the narrow screen for text. */
+@media (max-width: 600px) {
+    main, main:has(p) {
+        margin: auto 0.75rem;
+        padding: 1.5rem 1.25rem;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    main p {
+        font-size: 1.1rem;
+    }
 }
