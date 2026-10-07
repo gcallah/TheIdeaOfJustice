@@ -48,6 +48,20 @@ body.antigone {
     background-position: center;
 }
 
+/* Introduction: Friedrich, Wanderer above the Sea of Fog. */
+body.fog {
+    background-color: #9aa3ae;
+    background-image: url("images/wanderer-fog.jpg");
+    background-size: cover;
+    background-position: center 15%;
+}
+
+/* The wanderer stands at the center, so float the panel up into the fog. */
+body.fog main {
+    margin-top: 2rem;
+    margin-bottom: auto;
+}
+
 /* Plato / Aristotle: Raphael, The School of Athens. */
 body.school-of-athens {
     background-color: #d8c9a8;
