@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+#
+# bump-css-version: stamp every page's style.css link with a version.
+#
+# Usage: bin/bump-css-version
+#
+# GitHub Pages lets browsers cache style.css for 10 minutes, so after a CSS
+# change visitors can see new HTML with old styles. This rewrites each
+# href="style.css" (or "../style.css", with or without an old ?v=...) to
+# end in ?v=<first 8 hex digits of style.css's SHA-1>, so the URL changes
+# whenever the CSS does, which forces browsers to fetch the new file.
+#
+# Run it after editing style.css, before committing. Running it again
+# without changing the CSS changes nothing.
+
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+version=$(shasum style.css | cut -c1-8)
+
+find . -name '*.html' -not -path './.git/*' -print0 |
+    xargs -0 perl -pi -e \
+        's{(href="(?:\.\./)*style\.css)(?:\?v=[^"]*)?"}{$1?v='"$version"'"}g'
+
+echo "style.css version: $version"
+grep -rn --include='*.html' 'style\.css' . | sed 's/^\.\///'
