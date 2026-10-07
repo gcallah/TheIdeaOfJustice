@@ -40,6 +40,14 @@ body.iliad {
     background-position: center;
 }
 
+/* Antigone: Lenepveu, Antigone Gives Token Burial to Polynices. */
+body.antigone {
+    background-color: #4a463c;
+    background-image: url("images/antigone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 main {
     background: rgba(20, 14, 8, 0.72);
     padding: 2rem 3rem;
