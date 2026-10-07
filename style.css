@@ -32,6 +32,14 @@ body.greece {
     background-position: center;
 }
 
+/* The Iliad: Rubens, Achilles Defeating Hector. */
+body.iliad {
+    background-color: #3a2e1c;
+    background-image: url("images/achilles-hector.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 main {
     background: rgba(20, 14, 8, 0.72);
     padding: 2rem 3rem;
