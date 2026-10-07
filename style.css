@@ -48,6 +48,20 @@ body.antigone {
     background-position: center;
 }
 
+/* Plato / Aristotle: Raphael, The School of Athens. */
+body.school-of-athens {
+    background-color: #d8c9a8;
+    background-image: url("images/school-of-athens.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Plato and Aristotle stand at the center, so keep the panel off them. */
+body.school-of-athens main {
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
 main {
     background: rgba(20, 14, 8, 0.72);
     padding: 2rem 3rem;
