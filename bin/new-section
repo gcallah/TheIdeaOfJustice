@@ -1,0 +1,169 @@
+#!/usr/bin/env bash
+#
+# new-section: create the skeleton of a new section of the site.
+#
+# Usage: bin/new-section NUMERAL "TITLE" THINKER...
+#
+#   bin/new-section VI "The Nineteenth Century" Hegel Marx "John Stuart Mill"
+#
+# This creates:
+#
+#   NineteenthCentury/index.html   section page listing the thinkers, titled
+#                                  "VI. The Nineteenth Century"
+#   NineteenthCentury/hegel.html   one "Coming soon." page per thinker,
+#   NineteenthCentury/marx.html    linking back to the section page
+#   NineteenthCentury/mill.html
+#
+# and adds a link to the section on the home page, a style rule for each new
+# page at the end of style.css, and then runs bin/bump-css-version.
+#
+# The folder name is the title in CamelCase without a leading "The"; the
+# section's CSS class is the same in kebab-case (nineteenth-century). Each
+# thinker's file and CSS class is the last word of the name, lowercased. To
+# choose a different one, write NAME=SLUG, e.g. "Thomas Aquinas=aquinas".
+#
+# Choosing the background images is left to you: each new style rule and
+# page footer is marked TODO. Put the image in images/, fill in the rule's
+# background-image and the footer's credit, and if the panel covers the
+# picture's subject, add the page's class to the "These figures stand at
+# the center" rule in style.css. Then run bin/bump-css-version again.
+
+set -euo pipefail
+
+usage() {
+    echo "usage: bin/new-section NUMERAL \"TITLE\" THINKER..." >&2
+    echo "  e.g. bin/new-section VI \"The Nineteenth Century\" Hegel Marx" >&2
+    exit 2
+}
+
+[ $# -ge 3 ] || usage
+
+numeral=$1
+title=$2
+shift 2
+
+cd "$(dirname "$0")/.."
+
+# "The Nineteenth Century" -> words "Nineteenth Century"
+words=$(echo "$title" | sed -E 's/^The //')
+dir=$(echo "$words" | perl -pe 's/[^A-Za-z0-9 ]//g; s/(\w+)/\u$1/g; s/ //g')
+class=$(echo "$words" | perl -pe 's/[^A-Za-z0-9 ]//g; $_ = lc; s/ +/-/g')
+heading="$numeral. $title"
+
+if [ -z "$dir" ]; then
+    echo "new-section: can't make a folder name from \"$title\"" >&2
+    exit 1
+fi
+if [ -e "$dir" ]; then
+    echo "new-section: $dir already exists" >&2
+    exit 1
+fi
+if grep -q "href=\"$dir/index.html\"" index.html; then
+    echo "new-section: index.html already links to $dir" >&2
+    exit 1
+fi
+
+# Split each THINKER into a display name and a slug.
+names=()
+slugs=()
+for t in "$@"; do
+    case $t in
+        *=*) name=${t%%=*}; slug=${t#*=} ;;
+        *)   name=$t; slug=$(echo "${t##* }" | tr '[:upper:]' '[:lower:]') ;;
+    esac
+    slug=$(echo "$slug" | perl -pe 's/[^a-z0-9-]//g')
+    if [ -z "$slug" ] || [ "$slug" = index ]; then
+        echo "new-section: bad file name \"$slug\" for \"$name\"; use NAME=SLUG" >&2
+        exit 1
+    fi
+    for s in "${slugs[@]+"${slugs[@]}"}"; do
+        if [ "$s" = "$slug" ]; then
+            echo "new-section: two thinkers would be $slug.html; use NAME=SLUG" >&2
+            exit 1
+        fi
+    done
+    names+=("$name")
+    slugs+=("$slug")
+done
+
+# page FILE CLASS TITLE BODY BACKHREF BACKTEXT
+page() {
+    cat > "$1" <<EOF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>$3 | The Idea of Justice</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="$2">
+    <main>
+        <h1>$3</h1>
+$4
+        <nav class="back"><a href="$5">&larr; $6</a></nav>
+    </main>
+    <footer>
+        Background: TODO.
+    </footer>
+</body>
+</html>
+EOF
+}
+
+# rule CLASS COMMENT: add a style rule for one page to $rules.
+rules=""
+rule() {
+    rules+="/* $2: TODO background image. */
+body.$1 {
+    background-color: #2a2017;
+    background-image: url(\"images/TODO.jpg\");
+    background-size: cover;
+    background-position: center;
+}
+
+"
+}
+
+mkdir "$dir"
+
+list="        <ol>"
+for i in "${!names[@]}"; do
+    list+=$'\n'"            <li><a href=\"${slugs[$i]}.html\">${names[$i]}</a></li>"
+done
+list+=$'\n'"        </ol>"
+
+page "$dir/index.html" "$class" "$heading" "$list" ../index.html "The Idea of Justice"
+rule "$class" "$title"
+echo "created $dir/index.html"
+
+for i in "${!names[@]}"; do
+    page "$dir/${slugs[$i]}.html" "${slugs[$i]}" "${names[$i]}" \
+        "        <p>Coming soon.</p>" index.html "$heading"
+    rule "${slugs[$i]}" "${names[$i]}"
+    echo "created $dir/${slugs[$i]}.html"
+done
+
+# Put the new rules with the other pages' rules, just before the rule that
+# keeps the panel off central figures; if that's gone, at the end.
+marker="/* These figures stand at the center"
+if grep -qF "$marker" style.css; then
+    RULES=$rules MARKER=$marker perl -0pi -e \
+        's{^(\Q$ENV{MARKER}\E)}{$ENV{RULES}$1}m' style.css
+else
+    printf '\n%s' "${rules%$'\n'}" >> style.css
+fi
+echo "added style rules to style.css"
+
+# Add the section after the last item in the home page's list.
+link="<li><a href=\"$dir/index.html\">$heading</a></li>"
+LINK=$link perl -0pi -e \
+    's{(\n([ \t]*)<li>[^\n]*</li>)(\n[ \t]*</ul>)}{$1\n$2$ENV{LINK}$3}' \
+    index.html
+if ! grep -qF "$link" index.html; then
+    echo "new-section: couldn't add the link to index.html; add it by hand" >&2
+    exit 1
+fi
+echo "linked from index.html"
+
+bin/bump-css-version | sed -n 1p

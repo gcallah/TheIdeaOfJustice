@@ -10,3 +10,13 @@ https://gcallah.github.io/TheIdeaOfJustice/.
 After changing `style.css`, run `bin/bump-css-version` before committing. It
 updates the `?v=` version on every page's stylesheet link, so browsers fetch the
 new CSS instead of using a cached copy.
+
+To start a new section, run `bin/new-section` with its numeral, title and
+thinkers, e.g.
+
+    bin/new-section VI "The Nineteenth Century" Hegel Marx "John Stuart Mill"
+
+It creates the section's folder and pages, links it from the home page, and
+adds a style rule per page. Background images are left for you: fill in each
+`TODO` in the new style rules and page footers (see the comment at the top of
+the script).
