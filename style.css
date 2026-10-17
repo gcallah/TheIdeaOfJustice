@@ -56,8 +56,9 @@ body.fog {
     background-position: center 15%;
 }
 
-/* The wanderer stands at the center, so float the panel up into the fog. */
-body.fog main {
+/* These subjects fill the center and bottom, so float the panel up top. */
+body.fog main,
+body.montesquieu main {
     margin-top: 2rem;
     margin-bottom: auto;
 }
@@ -126,20 +127,20 @@ body.locke {
     background-position: center 30%;
 }
 
-/* The Eighteenth Century: Wright of Derby, A Philosopher Lecturing on the Orrery. */
-body.eighteenth-century {
-    background-color: #1a1410;
-    background-image: url("images/orrery.jpg");
-    background-size: cover;
-    background-position: center 30%;
-}
-
-/* Smith: the pin-maker's workshop from the Encyclopédie. */
-body.smith {
-    background-color: #f2efe8;
-    background-image: url("images/pin-factory.jpg");
+/* The American Founding: the Constitution, "We the People". */
+body.american-founding {
+    background-color: #e8dcc0;
+    background-image: url("images/constitution.jpg");
     background-size: cover;
     background-position: center top;
+}
+
+/* Paine: Oertel, Pulling Down the Statue of King George III. */
+body.paine {
+    background-color: #3d4456;
+    background-image: url("images/statue.jpg");
+    background-size: cover;
+    background-position: center 30%;
 }
 
 /* Jefferson: Trumbull, Declaration of Independence. */
@@ -150,12 +151,12 @@ body.jefferson {
     background-position: center 40%;
 }
 
-/* Burke: Houël, The Storming of the Bastille. */
-body.burke {
-    background-color: #6b6258;
-    background-image: url("images/bastille.jpg");
+/* Montesquieu: Christy, Scene at the Signing of the Constitution. */
+body.montesquieu {
+    background-color: #4a3a28;
+    background-image: url("images/signing.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center 30%;
 }
 
 /* These figures stand at the center, so keep the panel off them. */
@@ -166,8 +167,8 @@ body.aquinas main,
 body.machiavelli main,
 body.hobbes main,
 body.locke main,
-body.eighteenth-century main,
-body.smith main,
+body.american-founding main,
+body.paine main,
 body.jefferson main {
     margin-top: auto;
     margin-bottom: 1rem;
