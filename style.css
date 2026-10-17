@@ -70,8 +70,35 @@ body.school-of-athens {
     background-position: center;
 }
 
-/* Plato and Aristotle stand at the center, so keep the panel off them. */
-body.school-of-athens main {
+/* The Middle Ages: the Chi-Rho page of the Lindisfarne Gospels. */
+body.middle-ages {
+    background-color: #e6d9bc;
+    background-image: url("images/lindisfarne-chi-rho.jpg");
+    background-size: cover;
+    background-position: center 20%;
+}
+
+/* Augustine: Philippe de Champaigne, Saint Augustine. */
+body.augustine {
+    background-color: #1f2b22;
+    background-image: url("images/augustine.jpg");
+    background-size: cover;
+    background-position: center 15%;
+}
+
+/* Aquinas: Gozzoli, The Triumph of Saint Thomas Aquinas (detail). */
+body.aquinas {
+    background-color: #c9a440;
+    background-image: url("images/aquinas-triumph.jpg");
+    background-size: cover;
+    background-position: center 20%;
+}
+
+/* These figures stand at the center, so keep the panel off them. */
+body.school-of-athens main,
+body.middle-ages main,
+body.augustine main,
+body.aquinas main {
     margin-top: auto;
     margin-bottom: 1rem;
 }
