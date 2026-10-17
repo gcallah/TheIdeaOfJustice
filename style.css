@@ -102,12 +102,12 @@ body.early-modern {
     background-position: center 30%;
 }
 
-/* Machiavelli: Europe at the accession of Charles V, 1519 (detail). */
+/* Machiavelli: the fragmented states of Italy in 1494. */
 body.machiavelli {
-    background-color: #cfe3e8;
-    background-image: url("images/europe-1519.jpg");
+    background-color: #c8e6ef;
+    background-image: url("images/italy-1494.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center 20%;
 }
 
 /* Hobbes: Bosse's frontispiece to Leviathan (detail). */
