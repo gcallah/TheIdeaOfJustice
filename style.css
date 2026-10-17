@@ -118,12 +118,12 @@ body.hobbes {
     background-position: center top;
 }
 
-/* Locke: Kneller, Portrait of John Locke. */
+/* Locke: John White, The Town of Secoton, with its fields of corn. */
 body.locke {
-    background-color: #3a2618;
-    background-image: url("images/locke.jpg");
+    background-color: #e3d6bd;
+    background-image: url("images/secoton.jpg");
     background-size: cover;
-    background-position: center 25%;
+    background-position: center 30%;
 }
 
 /* These figures stand at the center, so keep the panel off them. */
