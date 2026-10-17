@@ -58,7 +58,8 @@ body.fog {
 
 /* These subjects fill the center and bottom, so float the panel up top. */
 body.fog main,
-body.montesquieu main {
+body.montesquieu main,
+body.hume main {
     margin-top: 2rem;
     margin-bottom: auto;
 }
@@ -159,6 +160,39 @@ body.montesquieu {
     background-position: center 30%;
 }
 
+/* The Eighteenth Century: Wright of Derby, A Philosopher Lecturing on the Orrery. */
+body.eighteenth-century {
+    background-color: #1a1410;
+    background-image: url("images/orrery.jpg");
+    background-size: cover;
+    background-position: center 30%;
+}
+
+/* Rousseau: "Il retourne chez ses égaux", for the Discourse on Inequality. */
+body.rousseau {
+    background-color: #e6dcc8;
+    background-image: url("images/rousseau-egaux.jpg");
+    background-size: cover;
+    background-position: center 80%;
+}
+
+/* Hume: Eakins, The Biglin Brothers Racing; justice as convention, like
+   "two men, who pull the oars of a boat". */
+body.hume {
+    background-color: #4d5a4a;
+    background-image: url("images/biglin.jpg");
+    background-size: cover;
+    background-position: center 60%;
+}
+
+/* Kant: Van Gogh, Starry Night over the Rhône; "the starry heavens above me". */
+body.kant {
+    background-color: #142033;
+    background-image: url("images/starry-rhone.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
 /* These figures stand at the center, so keep the panel off them. */
 body.school-of-athens main,
 body.middle-ages main,
@@ -169,6 +203,9 @@ body.hobbes main,
 body.locke main,
 body.american-founding main,
 body.paine main,
+body.eighteenth-century main,
+body.rousseau main,
+body.kant main,
 body.jefferson main {
     margin-top: auto;
     margin-bottom: 1rem;
