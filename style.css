@@ -126,6 +126,38 @@ body.locke {
     background-position: center 30%;
 }
 
+/* The Eighteenth Century: Wright of Derby, A Philosopher Lecturing on the Orrery. */
+body.eighteenth-century {
+    background-color: #1a1410;
+    background-image: url("images/orrery.jpg");
+    background-size: cover;
+    background-position: center 30%;
+}
+
+/* Smith: the pin-maker's workshop from the Encyclopédie. */
+body.smith {
+    background-color: #f2efe8;
+    background-image: url("images/pin-factory.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+/* Jefferson: Trumbull, Declaration of Independence. */
+body.jefferson {
+    background-color: #4e4236;
+    background-image: url("images/declaration.jpg");
+    background-size: cover;
+    background-position: center 40%;
+}
+
+/* Burke: Houël, The Storming of the Bastille. */
+body.burke {
+    background-color: #6b6258;
+    background-image: url("images/bastille.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /* These figures stand at the center, so keep the panel off them. */
 body.school-of-athens main,
 body.middle-ages main,
@@ -133,7 +165,10 @@ body.augustine main,
 body.aquinas main,
 body.machiavelli main,
 body.hobbes main,
-body.locke main {
+body.locke main,
+body.eighteenth-century main,
+body.smith main,
+body.jefferson main {
     margin-top: auto;
     margin-bottom: 1rem;
 }
