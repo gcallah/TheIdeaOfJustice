@@ -94,11 +94,46 @@ body.aquinas {
     background-position: center 20%;
 }
 
+/* Early Modern: Holbein, The Ambassadors. */
+body.early-modern {
+    background-color: #2f4a1e;
+    background-image: url("images/ambassadors.jpg");
+    background-size: cover;
+    background-position: center 30%;
+}
+
+/* Machiavelli: Europe at the accession of Charles V, 1519 (detail). */
+body.machiavelli {
+    background-color: #cfe3e8;
+    background-image: url("images/europe-1519.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hobbes: Bosse's frontispiece to Leviathan (detail). */
+body.hobbes {
+    background-color: #d8d8d0;
+    background-image: url("images/leviathan.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+/* Locke: Kneller, Portrait of John Locke. */
+body.locke {
+    background-color: #3a2618;
+    background-image: url("images/locke.jpg");
+    background-size: cover;
+    background-position: center 25%;
+}
+
 /* These figures stand at the center, so keep the panel off them. */
 body.school-of-athens main,
 body.middle-ages main,
 body.augustine main,
-body.aquinas main {
+body.aquinas main,
+body.machiavelli main,
+body.hobbes main,
+body.locke main {
     margin-top: auto;
     margin-bottom: 1rem;
 }
