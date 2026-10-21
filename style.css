@@ -225,6 +225,39 @@ body.marx {
     background-position: center;
 }
 
+/* The Twentieth Century: Anders, Earthrise, Apollo 8, 1968. */
+body.twentieth-century {
+    background-color: #000000;
+    background-image: url("images/earthrise.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* Rawls: Strazza, The Veiled Virgin; choosing behind the veil of ignorance. */
+body.rawls {
+    background-color: #1c1430;
+    background-image: url("images/veiled-virgin.jpg");
+    background-size: cover;
+    background-position: center 25%;
+}
+
+/* Nozick: Rembrandt, The Night Watch; the minimal, "night-watchman" state. */
+body.nozick {
+    background-color: #1e1810;
+    background-image: url("images/night-watch.jpg");
+    background-size: cover;
+    background-position: center 40%;
+}
+
+/* MacIntyre: Cole, The Course of Empire: Desolation; After Virtue's "new
+   dark ages", the ruins amid which we wait for "another St. Benedict". */
+body.macintyre {
+    background-color: #6f7480;
+    background-image: url("images/desolation.jpg");
+    background-size: cover;
+    background-position: center 40%;
+}
+
 /* These figures stand at the center, so keep the panel off them. */
 body.school-of-athens main,
 body.middle-ages main,
@@ -241,7 +274,11 @@ body.kant main,
 body.jefferson main,
 body.hegel main,
 body.mill main,
-body.marx main {
+body.marx main,
+body.twentieth-century main,
+body.rawls main,
+body.nozick main,
+body.macintyre main {
     margin-top: auto;
     margin-bottom: 1rem;
 }
