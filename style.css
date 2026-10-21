@@ -193,6 +193,38 @@ body.kant {
     background-position: center top;
 }
 
+/* The Nineteenth Century: Turner, Rain, Steam and Speed, the railway age. */
+body.nineteenth-century {
+    background-color: #b9a77f;
+    background-image: url("images/rain-steam-speed.jpg");
+    background-size: cover;
+    background-position: center 60%;
+}
+
+/* Hegel: David's Napoleon crossing the Alps, the "world-soul on horseback" Hegel saw at Jena. */
+body.hegel {
+    background-color: #3a3a36;
+    background-image: url("images/napoleon-alps.jpg");
+    background-size: cover;
+    background-position: center 25%;
+}
+
+/* Mill: Osborn, Nameless and Friendless, a woman artist at the mercy of a dealer. */
+body.mill {
+    background-color: #5a2e22;
+    background-image: url("images/nameless-friendless.jpg");
+    background-size: cover;
+    background-position: center 30%;
+}
+
+/* Marx: Menzel, The Iron Rolling Mill, labor in the age of industry. */
+body.marx {
+    background-color: #2a2017;
+    background-image: url("images/iron-rolling-mill.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /* These figures stand at the center, so keep the panel off them. */
 body.school-of-athens main,
 body.middle-ages main,
@@ -206,7 +238,10 @@ body.paine main,
 body.eighteenth-century main,
 body.rousseau main,
 body.kant main,
-body.jefferson main {
+body.jefferson main,
+body.hegel main,
+body.mill main,
+body.marx main {
     margin-top: auto;
     margin-bottom: 1rem;
 }
