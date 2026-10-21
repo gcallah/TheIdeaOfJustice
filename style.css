@@ -104,12 +104,12 @@ body.early-modern {
     background-position: center 30%;
 }
 
-/* Machiavelli: the fragmented states of Italy in 1494. */
+/* Machiavelli: Blaeu's hand-colored map of Italy's many states. */
 body.machiavelli {
-    background-color: #c8e6ef;
-    background-image: url("images/italy-1494.jpg");
+    background-color: #e6d5b0;
+    background-image: url("images/italy-blaeu.jpg");
     background-size: cover;
-    background-position: center 20%;
+    background-position: center 30%;
 }
 
 /* Hobbes: Bosse's frontispiece to Leviathan (detail). */
