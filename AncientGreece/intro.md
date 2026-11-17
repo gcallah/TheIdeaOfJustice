@@ -87,7 +87,7 @@ modernization program for Turkey, Reza Shah's similar undertaking in Persia
 (which included changing the country's name to Iran), or Mao's even more
 "vigorous" efforts in China. (In both Turkey and Iran, persuading the population
 to modernize employed fair amounts of violence, but Mao's thuggery made
-Ataturk's and Shah's brutality appear but as a soft nudge.)
+Ataturk's and Reza Shah's brutality appear but as a soft nudge.)
 
 ![Reza Shah at his coronation, Tehran, April 25, 1926. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Reza_shah_coronation.jpg).](../images/reza-shah-coronation.jpg){alt="Reza Shah in coronation robes and plumed crown, standing before a throne"}
 
