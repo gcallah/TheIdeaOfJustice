@@ -20,7 +20,7 @@ that occurred over several centuries on the peninsula of Greece, roughly between
 growth of what we might call "Greek civilization." So perhaps we should pause
 here and ask what we mean by a "civilization."
 
-One way to define "civilization" is an ideal type, describing a society
+One way to define "civilization" is as an ideal type, describing a society
 organized in a significantly more complex arrangement than the tribe or clan,
 such that it produces large-scale evidence of that complexity. (There are
 certainly other existing as well as possible definitions of the term
