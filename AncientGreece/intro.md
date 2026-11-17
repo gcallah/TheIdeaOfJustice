@@ -46,7 +46,7 @@ part of the human world, at some point in time, represents the efflorescence of
 a noteworthy level of societal complexity. Thus, I contend, it is both
 appropriate and useful for us, living in an almost "hyper-civilized" society, to
 study these episodes with particular attention, in the interest of seeing how we
-arrived at where we are.
+arrived where we are.
 
 (And here I will note that while the true historical spirit is moved chiefly by
 the simple delight of determining what were the "goings-on" that occurred at
