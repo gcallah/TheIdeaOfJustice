@@ -55,7 +55,8 @@ those goings-on as aids to understanding our current situation is also a worthy
 undertaking.)
 
 In a traditional society, although notable events may periodically occur, such
-as an episode when the chief was gored by an angry boar, there are no social
+as an episode when the chief was gored by an angry boar, or that time when the
+herds failed to appear by the lake in the summer, there are no social
 transformations that introduce significant discontinuities within those people's
 social life. That is because, per the ideal type we will employ of a
 "traditional society," if there were, that society would cease to be strictly
