@@ -96,7 +96,7 @@ Modernity is problematic for the people who experience it, in a way that the
 activities of a traditional society are not for its members. Since those entering into
 this condition have cast off the way of their ancestors, and are aware that they
 have done so, on what basis do they justify how they are now conducting their lives? Why is
-that way better than any other way they might conduct their lives? More
+that way better than any other way they might live? More
 specifically, why is their new way of doing things to be preferred to the
 traditional way that they have abandoned? 
 
