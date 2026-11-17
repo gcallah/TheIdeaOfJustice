@@ -1,7 +1,7 @@
 # Justice in Ancient Greece
 
-"If you knew your history,  
-Then you'd know where I'm coming from." -- Bob Marley
+"If you know your history  
+Then you would know where you coming from" -- Bob Marley
 
 "If you don't know your past  
 You don't know your future" -- Ziggy Marley 
