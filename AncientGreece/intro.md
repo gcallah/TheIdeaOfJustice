@@ -16,7 +16,7 @@ of those people to be enough on its own.
 
 In our case, we are going to examine transformations in the concept of justice
 that occurred over several centuries on the peninsula of Greece, roughly between
-about 800 B.C. and 350 B.C. This transformation is organically tied to the
+800 B.C. and 350 B.C. This transformation is organically tied to the
 growth of what we might call "Greek civilization." So perhaps we should pause
 here and ask what we mean by a "civilization."
 
