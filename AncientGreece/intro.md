@@ -20,7 +20,7 @@ that occurred over several centuries on the peninsula of Greece, roughly between
 growth of what we might call "Greek civilization." So perhaps we should pause
 here and ask what we mean by a "civilization."
 
-One way to define "civilization" is as an ideal type, describing a society
+One way to define "civilization" is as an [ideal type](https://plato.stanford.edu/entries/weber/#IdeaType), describing a society
 organized in a significantly more complex arrangement than the tribe or clan,
 such that it produces large-scale evidence of that complexity. (There are
 certainly other existing as well as possible definitions of the term
@@ -36,8 +36,8 @@ This definition makes no claim that "civilized" people are somehow better or
 more valuable than "savage" people. It makes no claim that *a society* we
 recognize as civilized is necessarily better than one organized around the tribe
 or clan. (Perhaps being civilized is a true advance over pre-civilized living,
-or perhaps it actually binds us in chains, as Rousseau suggested. Here, we
-merely bracket that question, as something we might consider on another day.) We
+or perhaps it actually binds us in chains, as [Rousseau](https://plato.stanford.edu/entries/rousseau/) suggested. Here, we
+merely [bracket](https://en.wikipedia.org/wiki/Bracketing_(phenomenology)) that question, as something we might consider on another day.) We
 will use "civilized" simply to signify a notable difference in social
 arrangements, a difference worthy of exploration. 
 
@@ -71,7 +71,7 @@ change, such as when liquid water suddenly becomes frozen. In this
 understanding, what we might call the "modern era," which we could date,
 depending on our theoretical predilections, as beginning somewhere between the
 1400s and the 1600s, is not one in which the condition of modernity emerges,
-fully developed, like Athena from the head of Zeus, without any gestation period
+fully developed, like [Athena from the head of Zeus](https://en.wikipedia.org/wiki/Athena#Birth), without any gestation period
 beyond a brief, splitting headache.
 
 ![Zeus, thunderbolt raised, sits on his throne as a small armed Athena springs from his head, while Hephaestus, who split it open, steps away with his axe. Attic black-figure cup by the Phrynos Painter, c. 560&ndash;550 B.C., British Museum (1867,0508.962). Photo by ArchaiOptix, [CC BY-SA 4.0, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Phrynos_Painter_-_ABV_169_3_-_introduction_of_Herakles_into_Olympos_-_birth_of_Athena_-_London_BM_1867-0508-962_-_02.jpg).](../images/birth-of-athena.jpg){.smaller alt="Black-figure vase painting of the bearded Zeus on a throne holding a thunderbolt, a tiny helmeted Athena rising from his head, and Hephaestus striding away holding an axe"}
@@ -82,10 +82,10 @@ posit "becoming more modern" not merely as a problematic process seeking
 explanation, but as a virtuous activity, which thus ought to be deliberately
 pursued. To the extent that such voices have gained influence in a society, that
 society itself has begun to pursue a process of "modernization." We can see such
-a process pursued quite explicitly in, for example, Kemal Ataturk's
-modernization program for Turkey, Reza Shah's similar undertaking in Persia
+a process pursued quite explicitly in, for example, [Kemal Ataturk's
+modernization program](https://en.wikipedia.org/wiki/Atat%C3%BCrk%27s_reforms) for Turkey, [Reza Shah](https://en.wikipedia.org/wiki/Reza_Shah)'s similar undertaking in Persia
 (which included changing the country's name to Iran), or Mao's even more
-"vigorous" efforts in China. (In both Turkey and Iran, persuading the population
+"vigorous" efforts in China ([Great Leap Forward](https://en.wikipedia.org/wiki/Great_Leap_Forward), [Cultural Revolution](https://en.wikipedia.org/wiki/Cultural_Revolution)). (In both Turkey and Iran, persuading the population
 to modernize employed fair amounts of violence, but Mao's thuggery made
 Ataturk's and Reza Shah's brutality appear but as a soft nudge.)
 
@@ -123,14 +123,14 @@ them. We can see this type of explanation arising, for instance, in Egyptian
 mythology that explains the preeminence of the pharaoh, or in the Old Testament,
 where the Hebrews offer explanations as to how they were different from the
 people around them, or in Greek myths that told of how the more conceptually
-characterized Olympian gods overthrew the more elemental gods that had preceded
+characterized Olympian gods [overthrew](https://en.wikipedia.org/wiki/Titanomachy) the more elemental gods that had preceded
 them.
 
 ![Francisco Goya, *Saturn Devouring His Son*, 1819&ndash;1823, Museo del Prado. Saturn is the Roman name for Cronus. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg).](../images/saturn-goya.jpg){alt="Dark painting of a wild-eyed giant biting into the body of a man"}
 
 And that brings us back to ancient Greece. In the progress of that society, in
-the three texts we will read -- the *Iliad*, *Antigone*, and the *Nicomachean
-Ethics* -- we see attempts to grapple with the question of how one should live
+the three texts we will read -- the *Iliad*, *Antigone*, and the [*Nicomachean
+Ethics*](https://plato.stanford.edu/entries/aristotle-ethics/) -- we see attempts to grapple with the question of how one should live
 justly. The later attempts do not deny the earlier concepts of justice;
 rather, they build upon them.
 
