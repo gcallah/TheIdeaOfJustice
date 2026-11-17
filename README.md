@@ -20,3 +20,13 @@ It creates the section's folder and pages, links it from the home page, and
 adds a style rule per page. Background images are left for you: fill in each
 `TODO` in the new style rules and page footers (see the comment at the top of
 the script).
+
+To turn a Markdown essay in a section folder into a page, run `bin/md-page`,
+e.g.
+
+    bin/md-page AncientGreece/intro.md
+
+It writes `AncientGreece/intro.html` in the site's style. Edit the Markdown and
+run it again; don't edit the generated HTML. It needs `pandoc`. (The site has a
+`.nojekyll` file, so GitHub Pages serves the files as they are and doesn't try to
+render the Markdown itself.)

@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+#
+# md-page: turn a Markdown essay into a page of the site.
+#
+# Usage: bin/md-page SECTION/FILE.md
+#
+#   bin/md-page AncientGreece/intro.md
+#
+# This writes AncientGreece/intro.html next to the Markdown file, in the same
+# style as the other pages. The first line of the Markdown, "# Title", becomes
+# the page's title and heading; pandoc converts the rest. The page borrows the
+# section's background (the <body> class of SECTION/index.html), its footer
+# credit, and a back link labeled with the section's heading.
+#
+# An image on a line of its own, ![caption](../images/x.jpg), becomes a figure
+# with that caption under it, so put the image's credit in the caption. Give
+# it alt text describing the picture with {alt="..."} right after the ")".
+#
+# Edit the Markdown, not the HTML: running this again overwrites the HTML.
+# Requires pandoc.
+
+set -euo pipefail
+
+usage() {
+    echo "usage: bin/md-page SECTION/FILE.md" >&2
+    exit 2
+}
+
+[ $# -eq 1 ] || usage
+md=$1
+
+cd "$(dirname "$0")/.."
+
+case $md in
+    */*.md) ;;
+    *) usage ;;
+esac
+if [ ! -f "$md" ]; then
+    echo "md-page: no such file: $md" >&2
+    exit 1
+fi
+command -v pandoc >/dev/null || { echo "md-page: pandoc is not installed" >&2; exit 1; }
+
+dir=$(dirname "$md")
+index=$dir/index.html
+html=${md%.md}.html
+if [ ! -f "$index" ]; then
+    echo "md-page: $index not found; the Markdown must be in a section folder" >&2
+    exit 1
+fi
+
+title=$(sed -n '1s/^# *//p' "$md")
+if [ -z "$title" ]; then
+    echo "md-page: $md must start with a \"# Title\" line" >&2
+    exit 1
+fi
+
+class=$(sed -n 's/.*<body class="\([^"]*\)".*/\1/p' "$index" | head -1)
+section=$(sed -n 's/.*<h1>\(.*\)<\/h1>.*/\1/p' "$index" | head -1)
+css=$(sed -n 's/.*\(href="\.\.\/style\.css[^"]*"\).*/\1/p' "$index" | head -1)
+footer=$(sed -n '/<footer>/,/<\/footer>/p' "$index")
+
+# Pandoc leaves alt="" on a figure's image even after an {alt="..."} given in
+# the Markdown, so drop the empty one.
+body=$(sed 1d "$md" | pandoc --from markdown --to html5 |
+    perl -pe 's/(alt="[^"]+"[^>]*) alt=""/$1/g; s/^/        /')
+
+cat > "$html" <<EOF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>$title | The Idea of Justice</title>
+    <link rel="stylesheet" $css>
+</head>
+<body class="$class">
+    <main>
+        <h1>$title</h1>
+$body
+        <nav class="back"><a href="index.html">&larr; $section</a></nav>
+    </main>
+$footer
+</body>
+</html>
+EOF
+
+echo "wrote $html"
