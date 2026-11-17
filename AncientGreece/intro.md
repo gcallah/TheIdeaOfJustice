@@ -80,7 +80,7 @@ beyond a brief, splitting headache.
 Rather, the modern age is a period in which the intensification of that
 condition has proceeded to an extent that some of those experiencing it begin to
 posit "becoming more modern" not merely as a problematic process seeking
-explanation, but as a virtuous activity, which thus ought to be deliberately
+explanation, but as an inherently virtuous activity, which thus ought to be deliberately
 pursued. To the extent that such voices have gained influence in a society, that
 society itself has begun to pursue a process of "modernization." We can see such
 a process pursued quite explicitly in, for example, [Kemal Ataturk's
