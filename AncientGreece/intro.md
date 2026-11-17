@@ -30,7 +30,7 @@ civilization may include monumental architecture, enduring artworks such as
 statuary, elaborate craftwork, coinage, large-scale agriculture, writing,
 bureaucracy, formalized law systems, and more. 
 
-![The Temple of the Three Windows at Machu Picchu, built of massive fitted stones without mortar. Photo by flowcomm, [CC BY 2.0, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Temple_of_Three_Windows,_Machu_Picchu,_Peru.jpg).](../images/machu-picchu.jpg){alt="Visitors walk beneath a wall of huge fitted stone blocks pierced by three trapezoidal windows"}
+![The Temple of the Three Windows at Machu Picchu, built of massive fitted stones without mortar. Photo by flowcomm, [CC BY 2.0, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Temple_of_Three_Windows,_Machu_Picchu,_Peru.jpg).](../images/machu-picchu.jpg){.smaller alt="Visitors walk beneath a wall of huge fitted stone blocks pierced by three trapezoidal windows"}
 
 This definition makes no claim that "civilized" people are somehow better or
 more valuable than "savage" people. It makes no claim that *a society* we
@@ -62,7 +62,7 @@ social life. That is because, per the ideal type we will employ of a
 traditional, and would begin to take on, at least to some extent, that condition
 which we call "modernity."
 
-![Charles R. Knight, *Cro-Magnon Artists Painting in Font-de-Gaume*, 1920, a reconstruction of Ice Age hunter-gatherers painting woolly mammoths on a cave wall in France, American Museum of Natural History. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Font-de-Gaume.jpg).](../images/cro-magnon-artists.jpg){alt="Painting of fur-clad Stone Age people by lamplight, one painting a woolly mammoth on a cave wall while others hold up stone lamps"}
+![Charles R. Knight, *Cro-Magnon Artists Painting in Font-de-Gaume*, 1920, a reconstruction of Ice Age hunter-gatherers painting woolly mammoths on a cave wall in France, American Museum of Natural History. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Font-de-Gaume.jpg).](../images/cro-magnon-artists.jpg){.smaller alt="Painting of fur-clad Stone Age people by lamplight, one painting a woolly mammoth on a cave wall while others hold up stone lamps"}
 
 Now I take the condition of modernity itself to be a matter of degree, in that
 the changes that occur as a society becomes "more modern" can still be
@@ -74,7 +74,7 @@ depending on our theoretical predilections, as beginning somewhere between the
 fully developed, like Athena from the head of Zeus, without any gestation period
 beyond a brief, splitting headache.
 
-![The birth of Athena from the head of Zeus, Attic black-figure amphora, c. 550&ndash;525 B.C., Louvre (F 32). Photo by Bibi Saint-Pol, [public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Amphora_birth_Athena_Louvre_F32.jpg).](../images/birth-of-athena.jpg){alt="Painted vase showing a small armed Athena springing from the head of a seated Zeus"}
+![Zeus, thunderbolt raised, sits on his throne as a small armed Athena springs from his head, while Hephaestus, who split it open, steps away with his axe. Attic black-figure cup by the Phrynos Painter, c. 560&ndash;550 B.C., British Museum (1867,0508.962). Photo by ArchaiOptix, [CC BY-SA 4.0, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Phrynos_Painter_-_ABV_169_3_-_introduction_of_Herakles_into_Olympos_-_birth_of_Athena_-_London_BM_1867-0508-962_-_02.jpg).](../images/birth-of-athena.jpg){.smaller alt="Black-figure vase painting of the bearded Zeus on a throne holding a thunderbolt, a tiny helmeted Athena rising from his head, and Hephaestus striding away holding an axe"}
 
 Rather, the modern age is a period in which the intensification of that
 condition has proceeded to an extent that some of those experiencing it begin to
@@ -89,7 +89,7 @@ modernization program for Turkey, Reza Shah's similar undertaking in Persia
 to modernize employed fair amounts of violence, but Mao's thuggery made
 Ataturk's and Reza Shah's brutality appear but as a soft nudge.)
 
-![Reza Shah at his coronation, Tehran, April 25, 1926. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Reza_shah_coronation.jpg).](../images/reza-shah-coronation.jpg){alt="Reza Shah in coronation robes and plumed crown, standing before a throne"}
+![Reza Shah at his coronation, Tehran, April 25, 1926. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Reza_shah_coronation.jpg).](../images/reza-shah-coronation.jpg){.smaller alt="Reza Shah in coronation robes and plumed crown, standing before a throne"}
 
 Modernity is problematic for the people who experience it, in a way that the
 activities of a traditional society are not for its members. Since those entering into

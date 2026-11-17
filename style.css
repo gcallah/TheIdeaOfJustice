@@ -319,6 +319,18 @@ main figure img {
     margin: 0 auto;
 }
 
+/* A picture marked {.smaller} in the Markdown is two thirds the usual size. */
+main figure img.smaller {
+    max-width: 67%;
+    max-height: 53vh;
+}
+
+@media (max-width: 600px) {
+    main figure img.smaller {
+        max-width: 100%;
+    }
+}
+
 main figcaption {
     text-align: left;
     font-size: 0.9rem;
