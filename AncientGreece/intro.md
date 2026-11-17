@@ -123,9 +123,9 @@ cosmos, but for their existence as a different form of society from those around
 them. We can see this type of explanation arising, for instance, in Egyptian
 mythology that explains the preeminence of the pharaoh, or in the Old Testament,
 where the Hebrews celebrated how they were different from their pagan
-neighbors, or in Greek myths that told of how the more conceptually
-characterized Olympian gods [overthrew](https://en.wikipedia.org/wiki/Titanomachy) the more elemental gods that had preceded
-them.
+neighbors, or in Greek myths that told of how the Olympian gods, who presided over law,
+craft, and the ordering of human affairs, [overthrew](https://en.wikipedia.org/wiki/Titanomachy) the
+Titans, who embodied the raw forces of nature.
 
 ![Francisco Goya, *Saturn Devouring His Son*, 1819&ndash;1823, Museo del Prado. Saturn is the Roman name for Cronus. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg).](../images/saturn-goya.jpg){alt="Dark painting of a wild-eyed giant biting into the body of a man"}
 
