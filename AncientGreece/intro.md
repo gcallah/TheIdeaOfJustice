@@ -30,7 +30,7 @@ civilization may include monumental architecture, enduring artworks such as
 statuary, elaborate craftwork, coinage, large-scale agriculture, writing,
 bureaucracy, formalized law systems, and more. 
 
-![Machu Picchu, the Inca citadel in the Andes, seen from Huayna Picchu. Photo by Martin St-Amant, [CC BY-SA 3.0, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:99_-_Machu_Picchu_-_Juin_2009.edit3.jpg).](../images/machu-picchu.jpg){alt="Stone ruins of Machu Picchu on a green mountain ridge"}
+![The Temple of the Three Windows at Machu Picchu, built of massive fitted stones without mortar. Photo by flowcomm, [CC BY 2.0, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Temple_of_Three_Windows,_Machu_Picchu,_Peru.jpg).](../images/machu-picchu.jpg){alt="Visitors walk beneath a wall of huge fitted stone blocks pierced by three trapezoidal windows"}
 
 This definition makes no claim that "civilized" people are somehow better or
 more valuable than "savage" people. It makes no claim that *a society* we
@@ -62,7 +62,7 @@ social life. That is because, per the ideal type we will employ of a
 traditional, and would begin to take on, at least to some extent, that condition
 which we call "modernity."
 
-![John White, *The Town of Pomeiooc*, 1585, a fortified Algonquian village in what is now North Carolina, British Museum. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_White_-_The_town_of_Pomeiooc,_1906,0509.1.8.jpg).](../images/pomeiooc.jpg){alt="Watercolor of a circle of bark-covered longhouses inside a palisade"}
+![Charles R. Knight, *Cro-Magnon Artists Painting in Font-de-Gaume*, 1920, a reconstruction of Ice Age hunter-gatherers painting woolly mammoths on a cave wall in France, American Museum of Natural History. [Public domain, via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Font-de-Gaume.jpg).](../images/cro-magnon-artists.jpg){alt="Painting of fur-clad Stone Age people by lamplight, one painting a woolly mammoth on a cave wall while others hold up stone lamps"}
 
 Now I take the condition of modernity itself to be a matter of degree, in that
 the changes that occur as a society becomes "more modern" can still be
