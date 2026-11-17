@@ -131,8 +131,8 @@ them.
 And that brings us back to ancient Greece. In the progress of that society, in
 the three texts we will read -- the *Iliad*, *Antigone*, and the *Nicomachean
 Ethics* -- we see attempts to grapple with the question of how one should live
-justly. The latter attempts build upon the previous ones, and rather than
-denying the earlier concepts of justice, they build upon them.
+justly. The later attempts do not deny the earlier concepts of justice;
+rather, they build upon them.
 
 Here, it is worth pointing out that there is no attempt to "pitch" any of these
 views to you, as if we could solve many of America's social problems by simply
