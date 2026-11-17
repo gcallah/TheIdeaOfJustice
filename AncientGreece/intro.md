@@ -49,8 +49,8 @@ study these episodes with particular attention, in the interest of seeing how we
 arrived where we are.
 
 (And here I will note that while the true historical spirit is moved chiefly by
-the simple delight of determining what were the "goings-on" that occurred at
-some time in the past, examining the patterns we might come to recognize in
+the simple delight of understanding the "goings-on" that occurred in the
+past, examining the patterns we might come to recognize in
 those goings-on as aids to understanding our current situation is also a worthy
 undertaking.)
 
