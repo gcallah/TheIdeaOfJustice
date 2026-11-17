@@ -122,8 +122,8 @@ formulate myths that act as explanations, not merely for their existence in the
 cosmos, but for their existence as a different form of society from those around
 them. We can see this type of explanation arising, for instance, in Egyptian
 mythology that explains the preeminence of the pharaoh, or in the Old Testament,
-where the Hebrews offer explanations as to how they were different from the
-people around them, or in Greek myths that told of how the more conceptually
+where the Hebrews celebrated how they were different from their pagan
+neighbors, or in Greek myths that told of how the more conceptually
 characterized Olympian gods [overthrew](https://en.wikipedia.org/wiki/Titanomachy) the more elemental gods that had preceded
 them.
 
